@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-buscar',
   templateUrl: './buscar.component.html',
-  styleUrls: []
+  styles: [
+  ]
 })
 export class BuscarComponent implements OnInit {
 

@@ -3,10 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-agregar',
   templateUrl: './agregar.component.html',
-  styleUrls: []
+  styles: [
+  ]
 })
-export class AgregarComponent {
+export class AgregarComponent implements OnInit {
 
+  constructor() { }
 
+  ngOnInit(): void {
+  }
 
 }
